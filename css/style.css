@@ -1,13 +1,43 @@
-
-/*
-.main {
-    color: chocolate; 
-
+/*reiniciar los margenes y rellenos de la pagina web*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.imagen {
-    size: 20px;
-    width: 10px;
-    height: 10px;
+body{
+    font-family: Arial, Impact;
+    font-size: 14px;
+    background-color: #52aed3;
 }
-*/
+
+.contenedor {
+    width: 96%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color:cornsilk;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul
+{
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float:left;
+}
+
+header nav ul li a {
+    padding: 15px 10px;
+    color: rgb(235, 44, 82);
+    display: inline-block;
+    text-decoration: none;
+}
