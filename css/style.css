@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Impact;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #52aed3;
 }
 
@@ -37,7 +37,43 @@ header nav ul li {
 
 header nav ul li a {
     padding: 15px 10px;
-    color: rgb(235, 44, 82);
+    color: #825458;
     display: inline-block;
     text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #0000;
+    color:red;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    background-color: cornsilk;
+}
+
+.main .imagen
+{
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+}
+
+.main .post {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.main .post article h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f5eedc;
+}
+
+.main .post article p {
+    line-height: 30px;
 }
