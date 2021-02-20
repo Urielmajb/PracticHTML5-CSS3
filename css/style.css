@@ -9,6 +9,7 @@ body{
     font-family: Arial, Impact;
     font-size: 16px;
     background-color: #52aed3;
+    
 }
 
 .contenedor {
@@ -77,3 +78,65 @@ header nav ul li a:hover {
 .main .post article p {
     line-height: 30px;
 }
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: #293946;
+    padding: 20px;
+    color: cornsilk;
+
+}
+
+aside .widget {
+    margin-bottom: 20px;
+}
+
+aside .widget .titulo {
+
+    color: #f5eedc;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+
+aside .widget ul {
+    list-style: none;
+}
+
+aside .widget ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+aside .widget ul li a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+aside .widget ul li a:hover{
+    background-color: #fff;
+    color:#FF0000;
+}
+
+aside .widget p {
+
+    line-height: 40px;
+    margin-top: 20px;
+
+}
+
+footer {
+    overflow: hidden;
+    width:70%;
+    background-color: #293946;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/*footer::before{
+    background-color: crimson;
+}*/
+
+
+
